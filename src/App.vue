@@ -24,9 +24,9 @@
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header-->
 
-  <RouterView /-->
+  <RouterView />
 </template>
 
 <style scoped>

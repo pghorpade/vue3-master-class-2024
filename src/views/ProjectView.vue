@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h2>This is project View</h2>
+    <router-link to="/">Go To Home Page</router-link>
   </div>
 </template>
 
