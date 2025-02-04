@@ -5,7 +5,8 @@
 <template>
   <main>
     <h2>This home View</h2>
-    <router-link to="/project">Go To Project Page</router-link>
+    <router-link to="/projects">Go To Projects Page</router-link>
+    <router-link :to="{ name: '/projects/[id]', params: { id: 1 } }">Go To Project 1</router-link>
     <!--TheWelcome /-->
   </main>
 </template>
